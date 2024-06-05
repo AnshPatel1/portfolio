@@ -18,6 +18,7 @@ export function ModeToggle() {
     const { setTheme } = useTheme()
     const [currentTheme, setCurrrentTheme] = useState("dark")
     const themes = ["dark", "light"]
+    setTheme(currentTheme)
     const toggleTheme = () => {
         setCurrrentTheme((prevTheme) => {
             const nextThemeIndex = (themes.indexOf(prevTheme) + 1) % themes.length;

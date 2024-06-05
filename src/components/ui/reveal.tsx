@@ -49,6 +49,7 @@ const Card = ({
                   children,
               }: {
     title: string;
+    link: string;
     icon: React.ReactNode;
     children?: React.ReactNode;
 }) => {

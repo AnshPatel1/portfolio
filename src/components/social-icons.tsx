@@ -48,7 +48,7 @@ function SocialIcons() {
                         <span className="sr-only">Twitter</span>
                     </div>
                 </Link>
-                {/* <ModeToggle /> */}
+                <ModeToggle />
             </nav>
         </div>
     )
